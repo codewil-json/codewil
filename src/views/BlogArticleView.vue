@@ -67,6 +67,7 @@ watchEffect(() => {
       `${post.value.title} | CodeWil`,
       post.value.excerpt,
       `/blog/${post.value.slug}`,
+      'article',
     );
   } else {
     useSeo(

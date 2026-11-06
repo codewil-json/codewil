@@ -10,15 +10,26 @@ function setMeta(attribute: 'name' | 'property', key: string, content: string) {
   element.content = content;
 }
 
-export default function useSeo(title: string, description: string, path: string) {
-  const canonicalUrl = `${window.location.origin}${path}`;
+const siteUrl = 'https://www.codewil.site';
+const socialImage = `${siteUrl}/og-image.png`;
+
+export default function useSeo(
+  title: string,
+  description: string,
+  path: string,
+  type: 'website' | 'article' = 'website',
+) {
+  const canonicalUrl = new URL(path, siteUrl).toString();
   document.title = title;
   setMeta('name', 'description', description);
+  setMeta('property', 'og:type', type);
   setMeta('property', 'og:title', title);
   setMeta('property', 'og:description', description);
   setMeta('property', 'og:url', canonicalUrl);
+  setMeta('property', 'og:image', socialImage);
   setMeta('name', 'twitter:title', title);
   setMeta('name', 'twitter:description', description);
+  setMeta('name', 'twitter:image', socialImage);
 
   let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
   if (!canonical) {

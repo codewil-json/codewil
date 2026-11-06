@@ -258,7 +258,7 @@ import { getProjects, type Project } from '@/services/projects';
 
 useSeo(
   'Wilson Acioli | Desenvolvedor Full Stack & Soluções Digitais',
-  'Desenvolvedor Full Stack especializado em Vue, React, Laravel, Node.js e soluções digitais.',
+  'Wilson Acioli é desenvolvedor full stack e cria sites, sistemas web, automações e soluções digitais com foco em experiência, desempenho e resultados.',
   '/',
 );
 
