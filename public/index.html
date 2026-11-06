@@ -1,17 +1,65 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="apple-touch-icon" href="<%= BASE_URL %>img/icons/apple-touch-icon.png">
+    <link rel="manifest" href="<%= BASE_URL %>site.webmanifest">
+    <meta name="author" content="Wilson Acioli">
+    <meta name="description" content="Desenvolvedor Full Stack especializado em Vue, React, Laravel, Node.js e soluções digitais.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0c100e">
+    <link rel="canonical" href="https://www.codewil.site/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CodeWil">
+    <meta property="og:title" content="Wilson Acioli | Desenvolvedor Full Stack &amp; Soluções Digitais">
+    <meta property="og:description" content="Desenvolvedor Full Stack especializado em Vue, React, Laravel, Node.js e soluções digitais.">
+    <meta property="og:url" content="https://www.codewil.site/">
+    <meta property="og:image" content="https://www.codewil.site/og-image.png">
+    <meta property="og:image:alt" content="Portfólio de Wilson Acioli - Desenvolvedor Full Stack">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wilson Acioli | Desenvolvedor Full Stack &amp; Soluções Digitais">
+    <meta name="twitter:description" content="Desenvolvedor Full Stack especializado em Vue, React, Laravel, Node.js e soluções digitais.">
+    <meta name="twitter:image" content="https://www.codewil.site/og-image.png">
+    <script>
+      const savedTheme = localStorage.getItem('codewil-theme');
+      const initialTheme = savedTheme === 'light' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = initialTheme;
+      document.querySelector('meta[name="theme-color"]').content = initialTheme === 'dark' ? '#0c100e' : '#f3f6ef';
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Wilson Acioli",
+        "url": "https://www.codewil.site",
+        "image": "https://www.codewil.site/og-image.png",
+        "jobTitle": "Software Engineer",
+        "sameAs": [
+          "https://github.com/codewil-json",
+          "https://www.linkedin.com/in/wilsonacioli"
+        ]
+      }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7KM5NYTTW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-D7KM5NYTTW');
+    </script>
+    <title>Wilson Acioli | Desenvolvedor Full Stack &amp; Soluções Digitais</title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>Este site necessita de JavaScript para funcionar corretamente.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>

@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import AboutView from '../views/AboutView.vue';
 import HomeView from '../views/HomeView.vue';
+import LinksView from '../views/LinksView.vue';
+import NotFoundView from '../views/NotFoundView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,16 +13,37 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
+    component: AboutView,
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/BlogView.vue'),
+  },
+  {
+    path: '/blog/:slug',
+    name: 'blog-article',
+    component: () => import('../views/BlogArticleView.vue'),
+  },
+  {
+    path: '/links',
+    name: 'links',
+    component: LinksView,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: NotFoundView,
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(to) {
+    if (to.hash) return { el: to.hash, top: 88, behavior: 'smooth' };
+    return { top: 0 };
+  },
 });
 
 export default router;

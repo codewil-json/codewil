@@ -1,0 +1,22 @@
+{
+  "name": "CodeWil - Portfólio de Wilson Acioli",
+  "short_name": "CodeWil",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0c100e",
+  "theme_color": "#0c100e",
+  "description": "Portfólio de Wilson Acioli com projetos, artigos e soluções em desenvolvimento web.",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
