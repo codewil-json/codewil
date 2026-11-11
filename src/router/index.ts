@@ -31,6 +31,11 @@ const routes: Array<RouteRecordRaw> = [
     component: LinksView,
   },
   {
+    path: '/black-november',
+    name: 'black-november',
+    component: () => import('../views/BlackNovemberView.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: NotFoundView,

@@ -11,8 +11,8 @@ export interface ContactMessage {
   message: string;
 }
 
-export async function sendContactMessage(contact: ContactMessage) {
-  if (!serviceId || !templateId || !publicKey || !recipient) {
+export async function sendContactMessage(contact: ContactMessage, recipientEmail = recipient) {
+  if (!serviceId || !templateId || !publicKey || !recipientEmail) {
     throw new Error('A configuração do EmailJS está incompleta.');
   }
 
@@ -20,7 +20,7 @@ export async function sendContactMessage(contact: ContactMessage) {
     serviceId,
     templateId,
     {
-      to_email: recipient,
+      to_email: recipientEmail,
       from_name: contact.name,
       reply_to: contact.email,
       message: contact.message,
