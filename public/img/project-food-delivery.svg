@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Food Delivery</title>
+  <desc id="description">Ilustração de um aplicativo mobile de delivery com hambúrgueres e batatas fritas.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3df"/>
+      <stop offset="1" stop-color="#ffd1a0"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#51291f"/>
+      <stop offset="1" stop-color="#171817"/>
+    </linearGradient>
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd577"/>
+      <stop offset="1" stop-color="#ed8b2f"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#552d1c" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <circle cx="170" cy="85" r="220" fill="#ffffff" opacity=".32"/>
+  <circle cx="1070" cy="610" r="270" fill="#f06424" opacity=".13"/>
+  <g fill="#e9a43c" opacity=".45">
+    <circle cx="140" cy="490" r="8"/>
+    <circle cx="205" cy="542" r="5"/>
+    <circle cx="1000" cy="110" r="7"/>
+    <circle cx="1040" cy="160" r="4"/>
+  </g>
+  <g transform="translate(135 240)">
+    <rect width="76" height="76" rx="22" fill="#f04416"/>
+    <path d="M20 31h37M24 39h29M29 47h19" fill="none" stroke="#fff7eb" stroke-linecap="round" stroke-width="5"/>
+    <path d="M22 26l5-8h24l5 8" fill="none" stroke="#fff7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <text x="0" y="135" fill="#34251d" font-family="Arial, sans-serif" font-size="48" font-weight="700">Food</text>
+    <text x="0" y="190" fill="#f04416" font-family="Arial, sans-serif" font-size="48" font-weight="700">Delivery</text>
+    <text x="2" y="235" fill="#6c5345" font-family="Arial, sans-serif" font-size="20">Seu próximo pedido</text>
+    <text x="2" y="264" fill="#6c5345" font-family="Arial, sans-serif" font-size="20">favorito está a poucos</text>
+    <text x="2" y="293" fill="#6c5345" font-family="Arial, sans-serif" font-size="20">toques de distância.</text>
+    <g transform="translate(0 330)">
+      <rect width="126" height="38" rx="19" fill="#ffffff" opacity=".75"/>
+      <circle cx="21" cy="19" r="5" fill="#f04416"/>
+      <text x="36" y="25" fill="#6c5345" font-family="Arial, sans-serif" font-size="15" font-weight="700">Feito em Vue</text>
+    </g>
+  </g>
+  <g filter="url(#shadow)" transform="translate(682 39)">
+    <rect x="0" y="0" width="350" height="598" rx="48" fill="#191919"/>
+    <rect x="9" y="9" width="332" height="580" rx="41" fill="#f7f5f2"/>
+    <rect x="116" y="16" width="118" height="29" rx="15" fill="#111111"/>
+    <text x="32" y="37" fill="#262626" font-family="Arial, sans-serif" font-size="13" font-weight="700">9:41</text>
+    <g fill="#262626">
+      <rect x="287" y="27" width="4" height="9" rx="2"/>
+      <rect x="294" y="23" width="4" height="13" rx="2"/>
+      <rect x="301" y="19" width="4" height="17" rx="2"/>
+    </g>
+    <path d="M22 68h24m-24 8h24m-24 8h16" stroke="#ffffff" stroke-linecap="round" stroke-width="3"/>
+    <rect x="9" y="56" width="332" height="251" fill="url(#hero)"/>
+    <circle cx="277" cy="106" r="72" fill="#f58a32" opacity=".18"/>
+    <text x="45" y="131" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Burgers</text>
+    <text x="45" y="157" fill="#ffd47e" font-family="Arial, sans-serif" font-size="15">Sabor que chega até você</text>
+    <g transform="translate(65 172)">
+      <ellipse cx="106" cy="102" rx="103" ry="17" fill="#090a09" opacity=".5"/>
+      <path d="M22 77h170l-11 30H33z" fill="#45a451"/>
+      <path d="M27 67h160l-7 15H34z" fill="#f4c744"/>
+      <path d="M34 59c18-17 42-7 60-10 23-4 42-16 67-8 15 5 25 14 29 24H29c0-2 2-4 5-6z" fill="#5b2c1c"/>
+      <path d="M28 52c4-30 33-49 78-49s74 19 78 49z" fill="url(#bun)"/>
+      <path d="M49 22l6 3m17-12 5 4m28-7v6m29-2-4 6m27 6-7 3" stroke="#fff0bd" stroke-linecap="round" stroke-width="4"/>
+      <path d="M46 81l9 5-7 5 11 5m31-17 9 5-7 5 11 5m31-17 9 5-7 5 11 5m20-13 9 5-7 5 6 4" fill="none" stroke="#ef7145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="M37 110h140l-12 17H49z" fill="#e7a448"/>
+      <path d="M47 127h120c-8 19-25 27-60 27s-52-8-60-27z" fill="url(#bun)"/>
+      <g transform="translate(191 12) rotate(13)">
+        <path d="M3 19h48l-8 77H11z" fill="#f04416"/>
+        <path d="M10 19 7-7m18 27L23-13m18 32 5-24m-20 24 2-31" stroke="#ffd779" stroke-linecap="round" stroke-width="10"/>
+        <path d="M10 32h37" stroke="#ff7040" stroke-width="3" opacity=".8"/>
+      </g>
+    </g>
+    <rect x="9" y="307" width="332" height="282" rx="30" fill="#ffffff"/>
+    <text x="34" y="348" fill="#e97714" font-family="Arial, sans-serif" font-size="21" font-weight="700">Mais vendidos</text>
+    <g transform="translate(32 368)">
+      <rect width="168" height="151" rx="13" fill="#33241d"/>
+      <circle cx="134" cy="28" r="19" fill="#ffffff" opacity=".9"/>
+      <path d="M126 28h16m-8-8v16" stroke="#f04416" stroke-linecap="round" stroke-width="3"/>
+      <ellipse cx="84" cy="111" rx="60" ry="10" fill="#100f0e" opacity=".45"/>
+      <path d="M35 89h97l-7 16H42z" fill="#43904a"/>
+      <path d="M40 81h88l-5 10H45z" fill="#f2c34c"/>
+      <path d="M45 75c12-12 25-6 39-9 13-4 23-9 37-1 6 3 10 8 12 13H40z" fill="#572b1b"/>
+      <path d="M42 70c3-19 18-31 45-31s42 12 45 31z" fill="url(#bun)"/>
+      <path d="M49 52l5 3m14-12 4 4m23-5v5m20 1-4 4" stroke="#fff0bd" stroke-linecap="round" stroke-width="3"/>
+      <path d="M49 106h78l-8 12H57z" fill="#e7a448"/>
+      <path d="M57 118h62c-4 10-15 16-31 16s-27-6-31-16z" fill="url(#bun)"/>
+    </g>
+    <g transform="translate(211 368)">
+      <rect width="98" height="151" rx="13" fill="#f8d7ad"/>
+      <path d="M24 85h51l-7 47H31z" fill="#f04416"/>
+      <path d="M30 84 26 57m21 27-2-37m20 37 6-29m-18 29 1-35" stroke="#f5b84f" stroke-linecap="round" stroke-width="9"/>
+      <ellipse cx="51" cy="134" rx="24" ry="5" fill="#873512" opacity=".25"/>
+      <circle cx="79" cy="21" r="14" fill="#ffffff"/>
+      <path d="M73 21h12m-6-6v12" stroke="#f04416" stroke-linecap="round" stroke-width="2.5"/>
+    </g>
+    <text x="35" y="548" fill="#32251d" font-family="Arial, sans-serif" font-size="15" font-weight="700">Combo da casa</text>
+    <text x="35" y="571" fill="#e97714" font-family="Arial, sans-serif" font-size="14" font-weight="700">A partir de R$ 29,90</text>
+    <rect x="9" y="520" width="332" height="69" rx="0" fill="#f04416"/>
+    <path d="M70 550l13-12 13 12v18H70z" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="3"/>
+    <circle cx="166" cy="551" r="11" fill="none" stroke="#ffcf70" stroke-width="3"/>
+    <path d="M158 551h16m-8-8v16" stroke="#ffcf70" stroke-linecap="round" stroke-width="2"/>
+    <circle cx="262" cy="550" r="4" fill="#ffffff"/>
+    <circle cx="279" cy="540" r="4" fill="#ffffff"/>
+    <circle cx="279" cy="560" r="4" fill="#ffffff"/>
+    <path d="m265 548 11-7m-11 11 11 7" stroke="#ffffff" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Flask E-commerce API</title>
+  <desc id="description">Ilustração de uma API de e-commerce com produtos e carrinho de compras.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#142d3c"/>
+      <stop offset="1" stop-color="#1b6658"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#65d6a5"/>
+      <stop offset="1" stop-color="#f4c95d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <circle cx="1020" cy="120" r="220" fill="#ffffff" opacity=".04"/>
+  <circle cx="170" cy="590" r="260" fill="#ffffff" opacity=".04"/>
+  <g fill="none" stroke="#a9dbc8" stroke-linecap="round" stroke-width="8" opacity=".48">
+    <path d="M715 250h90m0 0v-65m0 65v120m0-120h100"/>
+    <circle cx="805" cy="185" r="12" fill="#a9dbc8"/>
+    <circle cx="805" cy="370" r="12" fill="#a9dbc8"/>
+    <circle cx="905" cy="250" r="12" fill="#a9dbc8"/>
+  </g>
+  <g transform="translate(825 278)">
+    <path d="M0 22h26l22 98h120l24-72H40" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+    <circle cx="71" cy="146" r="11" fill="#f4c95d"/>
+    <circle cx="151" cy="146" r="11" fill="#f4c95d"/>
+    <path d="M68 50h98v-42H68z" fill="#ffffff" opacity=".12" stroke="#a9dbc8" stroke-width="4"/>
+  </g>
+  <g transform="translate(160 205)">
+    <rect width="510" height="270" rx="24" fill="#0c202a" opacity=".62" stroke="#73c9a7" stroke-opacity=".55" stroke-width="2"/>
+    <circle cx="34" cy="36" r="7" fill="#fb7768"/>
+    <circle cx="59" cy="36" r="7" fill="#f4c95d"/>
+    <circle cx="84" cy="36" r="7" fill="#65d6a5"/>
+    <path d="M35 85h92m-92 45h142m-142 45h117m-117 45h177" stroke="#65d6a5" stroke-linecap="round" stroke-width="9" opacity=".82"/>
+    <path d="M184 85h106m-66 45h104m-92 45h75m-46 45h112" stroke="#f4c95d" stroke-linecap="round" stroke-width="9" opacity=".82"/>
+  </g>
+  <text x="160" y="545" fill="#ffffff" font-family="Arial, sans-serif" font-size="46" font-weight="700">Flask E-commerce API</text>
+  <text x="162" y="590" fill="#b9d9cf" font-family="Arial, sans-serif" font-size="22">REST API · Products · Cart · Checkout</text>
+</svg>
