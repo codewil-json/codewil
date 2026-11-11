@@ -36,6 +36,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/BlackNovemberView.vue'),
   },
   {
+    path: '/black-friday',
+    name: 'black-friday',
+    component: () => import('../views/BlackFriday.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: NotFoundView,
